@@ -1,0 +1,8 @@
+El proyecto hasta el momento consta en la preparación del dataset para hacer predicción de si el día de mañana llueve en algún lugar del planeta. 
+Para eso utilizo una Api que dándole las coordenadas, devuelve el dataset histórico del clima de la estación climática más cercana.
+Para obtener las coordenadas lo único que hay que hacer es poner el link de googlemaps del lugar donde se quiere hacer el análisis. 
+El código siguiente esta pensado para que cualquiera sea el dataset obtenido lo deje en condiciones de ser utilizado con modelos de predicción.
+Al momento de hacer la entrega se probo con diferentes locaciones con diferentes climas(Ejemplo Buenos Aires, Bariloche, Tokyo, Londres, Egipto) 
+En caso de que una locación no cuente con los datos históricos de la precipitación (Variable principal) entonces en un momento dado una porción del código  emitirá un mensaje de error anunciando que ese dataset no sirve y que se elija otra locación.
+Este archivo esta en español pero el proyecto se hizo enteramente en ingles ya que me interesa presentarlo como portfolio de manera internacional.
+Inicialmente la idea es predecir lluvia pero podría desarrollarlo mas a futuro para poder predecir diferentes variables.
